@@ -1,4 +1,4 @@
-# app1test
+# Newtr Application
 
 A new Flutter project.
 
