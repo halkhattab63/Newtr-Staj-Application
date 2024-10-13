@@ -1,10 +1,10 @@
-import 'package:app1test/presentation/forgot_password/forget_password_view.dart';
-import 'package:app1test/presentation/login/login_view.dart';
-import 'package:app1test/presentation/main/main_view.dart';
-import 'package:app1test/presentation/register/register_view.dart';
-import 'package:app1test/presentation/resources/strings_manager.dart';
-import 'package:app1test/presentation/splash/splash_view.dart';
-import 'package:app1test/presentation/store_details/store_details_view.dart';
+import 'package:Newtr_application/presentation/forgot_password/forget_password_view.dart';
+import 'package:Newtr_application/presentation/login/login_view.dart';
+import 'package:Newtr_application/presentation/main/main_view.dart';
+import 'package:Newtr_application/presentation/register/register_view.dart';
+import 'package:Newtr_application/presentation/resources/strings_manager.dart';
+import 'package:Newtr_application/presentation/splash/splash_view.dart';
+import 'package:Newtr_application/presentation/store_details/store_details_view.dart';
 import 'package:flutter/material.dart';
 
 class Routes{

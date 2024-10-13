@@ -1,7 +1,7 @@
-import 'package:app1test/presentation/resources/color_manager.dart';
-import 'package:app1test/presentation/resources/font_manager.dart';
-import 'package:app1test/presentation/resources/styles_manager.dart';
-import 'package:app1test/presentation/resources/values_manager.dart';
+import 'package:Newtr_application/presentation/resources/color_manager.dart';
+import 'package:Newtr_application/presentation/resources/font_manager.dart';
+import 'package:Newtr_application/presentation/resources/styles_manager.dart';
+import 'package:Newtr_application/presentation/resources/values_manager.dart';
 import 'package:flutter/material.dart';
 
 ThemeData getAppLicationTheme(){
