@@ -1,4 +1,4 @@
-import 'package:Newtr_application/presentation/resources/theme_manager.dart';
+import 'package:newtr_application/presentation/resources/theme_manager.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable

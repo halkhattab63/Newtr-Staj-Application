@@ -1,4 +1,4 @@
-import 'package:Newtr_application/presentation/resources/font_manager.dart';
+import 'package:newtr_application/presentation/resources/font_manager.dart';
 import 'package:flutter/material.dart';
 
 TextStyle _getTextStyle( double FontSize, FontWeight FontWeight , Color color ){
