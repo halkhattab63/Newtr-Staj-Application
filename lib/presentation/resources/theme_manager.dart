@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 ThemeData getAppLicationTheme(){
   return ThemeData(
     // main colors 
-    primaryColor : ColorManager.Crimson_Blaze, 
+    primaryColor : ColorManager.crimsonBlaze, 
     primaryColorLight: ColorManager.lightPrimary,
     primaryColorDark: ColorManager.darkPrimary ,
     disabledColor: ColorManager.grey1,
@@ -21,7 +21,7 @@ ThemeData getAppLicationTheme(){
     // AppBar theme 
     appBarTheme:  AppBarTheme(
       centerTitle: true,
-      color: ColorManager.Crimson_Blaze ,
+      color: ColorManager.crimsonBlaze ,
       elevation: AppSize.s4,
       shadowColor: ColorManager.lightPrimary,
       titleTextStyle: getRegularStyle(color: ColorManager.white, fontSize: FontSize.s16)),
@@ -49,8 +49,8 @@ ThemeData getAppLicationTheme(){
             color: ColorManager.darkGrey, fontSize: FontSize.s16),
         titleMedium: getMediumStyle(
             color: ColorManager.lightGrey, fontSize: FontSize.s14),
-        bodySmall: getRegularStyle(color: ColorManager.grey1),
-        bodyLarge: getRegularStyle(color: ColorManager.grey)),
+        bodySmall: getRegularStyle(color: ColorManager.grey),
+        bodyLarge: getRegularStyle(color: ColorManager.grey1)),
 
 
       // input decoration theme 

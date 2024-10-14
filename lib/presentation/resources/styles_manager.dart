@@ -1,12 +1,12 @@
 import 'package:newtr_application/presentation/resources/font_manager.dart';
 import 'package:flutter/material.dart';
 
-TextStyle _getTextStyle( double FontSize, FontWeight FontWeight , Color color ){
+TextStyle _getTextStyle( double fontSize, FontWeight fontWeight , Color color ){
   return TextStyle(
-      fontSize: FontSize ,
+      fontSize: fontSize ,
       fontFamily:  FontConstants.fontFamily ,
       color: color ,
-      fontWeight: FontWeight); 
+      fontWeight: fontWeight); 
 }
 
 // regular style

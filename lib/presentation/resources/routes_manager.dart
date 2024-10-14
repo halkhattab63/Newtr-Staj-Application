@@ -1,6 +1,7 @@
 import 'package:newtr_application/presentation/forgot_password/forget_password_view.dart';
 import 'package:newtr_application/presentation/login/login_view.dart';
 import 'package:newtr_application/presentation/main/main_view.dart';
+import 'package:newtr_application/presentation/onboarding/onboarding_view.dart';
 import 'package:newtr_application/presentation/register/register_view.dart';
 import 'package:newtr_application/presentation/resources/strings_manager.dart';
 import 'package:newtr_application/presentation/splash/splash_view.dart';
@@ -12,6 +13,7 @@ class Routes{
   static const String loginRoute = "/login";
   static const String registerRoute = "/register";
   static const String forgotPasswordRoute = "/forgotPassword";
+   static const String onBoardingRoute  = "/onBording";
   static const String mainRoute = "/main";
   static const String storeDetailsRoute = "/storeDetails";
 }
@@ -21,16 +23,25 @@ class RouteGenerator {
     switch(settings.name){
       case Routes.splashRoute :
         return MaterialPageRoute(builder: (_) => const SplashView());
+
       case Routes.loginRoute : 
         return MaterialPageRoute(builder: (_) => const LoginView());
+
       case Routes.registerRoute:
         return MaterialPageRoute(builder: (_) => const RegisterView());
+
       case Routes.forgotPasswordRoute:
         return MaterialPageRoute(builder: (_) => const ForgetPasswordView());
+
+      case Routes.onBoardingRoute:
+        return MaterialPageRoute(builder: (_) => const OnboardingView());
+
       case Routes.mainRoute:
         return MaterialPageRoute(builder: (_) => const MainView());
+
       case Routes.storeDetailsRoute:
         return MaterialPageRoute(builder: (_) => const StoreDetailsView());
+
       default :
         return unDefinedRoute();
     }

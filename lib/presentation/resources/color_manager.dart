@@ -2,11 +2,11 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class ColorManager {
-  static Color Crimson_Blaze = const Color(0xffBD2A2E);
-  static Color Charcoal_Stone = const Color(0xff3B3936);
-  static Color  Silver_Mist = const Color(0xffB2BEBF);
-  static Color Slate_Gray = const Color(0xff889C9B);
-  static Color Deep_Teal = const Color(0xff486966);
+  static Color crimsonBlaze = const Color(0xffBD2A2E);
+  static Color charcoalStone = const Color(0xff3B3936);
+  static Color  silverMist = const Color(0xffB2BEBF);
+  static Color slateGray = const Color(0xff889C9B);
+  static Color deepTeal = const Color(0xff486966);
 
   //colors2 
   static Color primary = const Color(0xffED9728);
