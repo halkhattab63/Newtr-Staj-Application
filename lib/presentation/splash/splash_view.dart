@@ -18,7 +18,7 @@ class _SplashViewState extends State<SplashView> {
   Timer? _timer;
 
   _startDelay(){
-    _timer= Timer(Duration(seconds: AppConstants.splashDelay), _getNext);
+    _timer= Timer(const Duration(seconds: AppConstants.splashDelay), _getNext);
   }
 
   _getNext(){
