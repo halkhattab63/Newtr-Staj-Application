@@ -1,7 +1,7 @@
 import 'package:newtr_application/presentation/forgot_password/forget_password_view.dart';
 import 'package:newtr_application/presentation/login/login_view.dart';
 import 'package:newtr_application/presentation/main/main_view.dart';
-import 'package:newtr_application/presentation/onboarding/onboarding_view.dart';
+import 'package:newtr_application/presentation/onboarding/view/onboarding_view.dart';
 import 'package:newtr_application/presentation/register/register_view.dart';
 import 'package:newtr_application/presentation/resources/strings_manager.dart';
 import 'package:newtr_application/presentation/splash/splash_view.dart';
