@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:newtr_application/domain/models.dart';
+import 'package:newtr_application/domain/model/models.dart';
 import 'package:newtr_application/presentation/base/baseViewModel.dart';
 import 'package:newtr_application/presentation/resources/assets_manager.dart';
 import 'package:newtr_application/presentation/resources/strings_manager.dart';
