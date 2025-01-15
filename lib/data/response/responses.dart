@@ -18,14 +18,10 @@ class CustomerResponse {
   String? name;
   @JsonKey(name:"numOfNotifications")
   int? numOfNotifications;
-
   CustomerResponse(this.id,this.name,this.numOfNotifications);
-
   factory CustomerResponse.fromJson(Map<String, dynamic> json)
    => _$CustomerResponseFromJson(json);
-
   Map<String, dynamic> toJson() => _$CustomerResponseToJson(this);
-
 }
 
 

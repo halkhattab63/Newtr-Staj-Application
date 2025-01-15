@@ -7,9 +7,7 @@ extension NonNullString on String? {
       return Constants.empty;
     }else {
       return this!;
-    }
-  }
-}
+    } } }
 
 extension NonNullInteger on int? {
   int orZero(){
@@ -17,6 +15,4 @@ extension NonNullInteger on int? {
       return Constants.zero ;
     }else {
       return this!;
-    }
-  }
-}
+    } } }

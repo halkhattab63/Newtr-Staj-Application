@@ -10,7 +10,4 @@ class ImageAssets{
   static const String checkCircle = "$imagesPath/check-circle.svg";
   static const String chevronRight = "$imagesPath/chevron-right.svg";
   static const String chevronLeft = "$imagesPath/chevron-left.svg";
-
-
-
 }
